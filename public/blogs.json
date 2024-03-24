@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://i.ibb.co/TwZKvYr/hand-drawn-paper-fathers-day.jpg",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "author_name": "John Doe",
+    "author_picture": "https://example.com/john_doe.jpg",
+    "posted_date": "2024-03-21",
+    "reading_time": "10 mins",
+    "hash_tags": ["#LoremIpsum", "#Reading"]
+  },
+  {
+    "id": 2,
+    "cover_image": "https://i.ibb.co/TwZKvYr/hand-drawn-paper-fathers-day.jpg",
+    "title": "Consectetur Adipiscing Elit",
+    "author_name": "Jane Smith",
+    "author_picture": "https://example.com/jane_smith.jpg",
+    "posted_date": "2024-03-20",
+    "reading_time": "8 mins",
+    "hash_tags": ["#Consectetur", "#Lorem"]
+  },
+  {
+    "id": 3,
+    "cover_image": "https://i.ibb.co/TwZKvYr/hand-drawn-paper-fathers-day.jpg",
+    "title": "Sed Do Eiusmod Tempor Incididunt",
+    "author_name": "Alice Johnson",
+    "author_picture": "https://example.com/alice_johnson.jpg",
+    "posted_date": "2024-03-19",
+    "reading_time": "12 mins",
+    "hash_tags": ["#Sed", "#Eiusmod"]
+  },
+  {
+    "id": 4,
+    "cover_image": "https://i.ibb.co/TwZKvYr/hand-drawn-paper-fathers-day.jpg",
+    "title": "Ut Labore Et Dolore Magna Aliqua",
+    "author_name": "Michael Brown",
+    "author_picture": "https://example.com/michael_brown.jpg",
+    "posted_date": "2024-03-18",
+    "reading_time": "15 mins",
+    "hash_tags": ["#Ut", "#Labore"]
+  },
+  {
+    "id": 5,
+    "cover_image": "https://i.ibb.co/TwZKvYr/hand-drawn-paper-fathers-day.jpg",
+    "title": "Excepteur Sint Occaecat Cupidatat",
+    "author_name": "Emily Wilson",
+    "author_picture": "https://example.com/emily_wilson.jpg",
+    "posted_date": "2024-03-17",
+    "reading_time": "9 mins",
+    "hash_tags": ["#Excepteur", "#Cupidatat"]
+  }
+]
