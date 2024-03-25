@@ -11,7 +11,7 @@ function App() {
     <>
       
     <Header></Header>
-    <div className='md:flex mx-auto justify-between'>
+    <div className='md:flex mx-auto justify-between max-w-7xl mx-auto'>
       <Blogs></Blogs>
       <Bookmarks></Bookmarks>
     </div>

@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
+import { FaBookmark } from "react-icons/fa";
 
 const Blog = ({ blog }) => {
     // console.log(blog);
     const { title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
     return (
-        <div>
+        <div className='mb-20'>
             <img src={cover} alt={`Cover picture of the title ${title}`} />
             <div className='flex justify-between items-center'>
                 <div className='flex'>
@@ -16,12 +17,13 @@ const Blog = ({ blog }) => {
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
+                    <button className='ml-2'> <FaBookmark></FaBookmark> </button>
                 </div>
             </div>
             <h2 className="text-4xl">{title}</h2>
-            <p className='gap-x-4' >
+            <p >
                 {
-                    hashtags.map((hash, idx) => <span  key={idx}><a href >#{hash}</a></span>)
+                    hashtags.map((hash, idx) => <span key={idx}><a href >#{hash}</a></span>)
                 }
             </p>
         </div>
@@ -47,4 +49,6 @@ prop-types
 https://www.npmjs.com/package/prop-types
 npm install --save prop-types
 import PropTypes from 'prop-types';
+
+https://react-icons.github.io/react-icons/
 */
