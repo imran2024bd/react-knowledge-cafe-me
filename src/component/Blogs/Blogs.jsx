@@ -9,8 +9,8 @@ const Blogs = () => {
         // .then( data => console.log(data))
     },[])
     return (
-        <div>
-            
+        <div className="md: w-2/3">
+             <h1 className="text-4xl">Blogs: {blogs.length}</h1>  
         </div>
     );
 };
@@ -29,4 +29,8 @@ https://md-imran-hossain222.imgbb.com/
 Github_link
 https://github.com/ProgrammingHero1/react-knowledge-cafe
 
+
+
+
+42-2 Create Fake Data For The Blogs And Load Data
 */
