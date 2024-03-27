@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Blogs from './component/Blogs/Blogs'
 import Bookmarks from './component/Bookmarks/Bookmarks'
@@ -6,13 +7,17 @@ import Header from './component/Header/Header'
 
 function App() {
   
+const [bookmarks, setBookmarks] = useState([]);
 
+const handleAddToBookmak = blog => {
+  console.log('bookmark adding soon');
+}
   return (
     <>
       
     <Header></Header>
-    <div className='md:flex mx-auto justify-between max-w-7xl mx-auto'>
-      <Blogs></Blogs>
+    <div className='md:flex  justify-between max-w-7xl mx-auto'>
+        <Blogs handleAddToBookmak={handleAddToBookmak} ></Blogs>
       <Bookmarks></Bookmarks>
     </div>
 
